@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: blue;
+  padding: 1rem 8rem;
+  z-index: 1000;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: green;
+}
+
+#navbarSupportedContent > button {
+  background: #00bf85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+}
+
+.about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.about .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.about .text h2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.about .text p {
+  color: #000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.about .text a {
+  background: #00bf85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.experience {
+  background: #00bf7f;
+}
+.experience .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.experience .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.experience .text h2 {
+  color: #111;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.experience .text p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.experience .text a {
+  background: #111;
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: blue;
+}
+.skill {
+  background: #000;
+}
+
+.skill .one {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 7px;
+}
+
+body > footer {
+  background: green;
+}
+
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a {
+  background: #00bf85;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 0.4rem 1.4rem;
+  border: none;
+}
